@@ -24,7 +24,7 @@
     [self.view addSubview:tf];
     tf.backgroundColor = UIColor.lightGrayColor;
     tf.myPlaceholder = @"myPlaceholder";
-    tf.myPlaceholderColor = [UIColor redColor];
+//    tf.myPlaceholderColor = [UIColor redColor];
 }
 
 

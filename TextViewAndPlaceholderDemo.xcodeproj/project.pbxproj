@@ -14,6 +14,7 @@
 		A033DF932176E46000BD314E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A033DF912176E46000BD314E /* LaunchScreen.storyboard */; };
 		A033DF962176E46000BD314E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A033DF952176E46000BD314E /* main.m */; };
 		A033DF9E2176E48400BD314E /* UITextViewAndPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = A033DF9C2176E48400BD314E /* UITextViewAndPlaceholder.m */; };
+		A033DFA12176EA2500BD314E /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A033DF9F2176EA2400BD314E /* UIColor+RCColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A033DF952176E46000BD314E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A033DF9C2176E48400BD314E /* UITextViewAndPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewAndPlaceholder.m; sourceTree = "<group>"; };
 		A033DF9D2176E48400BD314E /* UITextViewAndPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewAndPlaceholder.h; sourceTree = "<group>"; };
+		A033DF9F2176EA2400BD314E /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
+		A033DFA02176EA2500BD314E /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		A033DF852176E46000BD314E /* TextViewAndPlaceholderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A033DFA02176EA2500BD314E /* UIColor+RCColor.h */,
+				A033DF9F2176EA2400BD314E /* UIColor+RCColor.m */,
 				A033DF9D2176E48400BD314E /* UITextViewAndPlaceholder.h */,
 				A033DF9C2176E48400BD314E /* UITextViewAndPlaceholder.m */,
 				A033DF862176E46000BD314E /* AppDelegate.h */,
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A033DF8B2176E46000BD314E /* ViewController.m in Sources */,
+				A033DFA12176EA2500BD314E /* UIColor+RCColor.m in Sources */,
 				A033DF9E2176E48400BD314E /* UITextViewAndPlaceholder.m in Sources */,
 				A033DF962176E46000BD314E /* main.m in Sources */,
 				A033DF882176E46000BD314E /* AppDelegate.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "UITextViewAndPlaceholder.h"
+#import "UIColor+RCColor.h"
 
 @interface UITextViewAndPlaceholder ()
 
@@ -42,7 +43,7 @@
 
         self.placeholderLabel = placeholderLabel; //赋值保存
 
-        self.myPlaceholderColor = [UIColor grayColor]; //设置占位文字默认颜色
+        self.myPlaceholderColor = [UIColor colorWithHexString:@"999999" alpha:1.0]; //设置占位文字默认颜色
 
         self.font = [UIFont systemFontOfSize:16]; //设置默认的字体
 
